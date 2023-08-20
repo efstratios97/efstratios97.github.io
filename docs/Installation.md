@@ -99,6 +99,7 @@ Before you begin, ensure you have the following installed on your system:
    LTEP_ATHENA_API_URL=http://host.docker.internal:27027
    VUE_APP_API_BASE_URL=http://host.docker.internal:27697
    VUE_APP_API_SANDBOX_URL=http://host.docker.internal:27000
+   VUE_APP_API_FUSIONCHART_LICENSE=<your-fs-license-optional>
    ```
 
 3. **Summary - Folder structure:**
