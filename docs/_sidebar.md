@@ -1,4 +1,1 @@
-- [Home](/)
-- [Installation](Installation.md)
-- [Getting Started](GettingStarted.md)
-- [Help](Help.md)
+
