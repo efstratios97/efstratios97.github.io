@@ -1,10 +1,12 @@
 <img src="https://www.ltep-technologies.com/wp-content/uploads/2022/06/LTEP_LOGO_21-3.png" alt="Logo">
 
-# LTEP AThena <small>1.0.0</small>
+# LTEP Developer Portal <small>:zap:</small>
 
-> Limitless Datascience and Automation
+> The main address for all of LTEP Open-Source solutions
 
-[GitHub](https://github.com/efstratios97/ltep_athena_api)
-[Getting Started](#ltep-athena-©-developer-portal)
+[Sophrosyne](/ltep-sophrosyne/v.1.0.0/)
+[Athena](/ltep-athena/v.1.0.0/)
+[More](#)
 
-![](_media/v.1.0/media/HOME_BACKGROUND.png)
+
+![](_media/HOME_BACKGROUND.png)
