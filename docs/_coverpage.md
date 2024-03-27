@@ -4,7 +4,7 @@
 
 > The main address for all of LTEP Open-Source solutions
 
-[Sophrosyne](/ltep-sophrosyne/v.1.1.0/)
+[Sophrosyne](/ltep-sophrosyne/v.1.2.0/)
 [Athena](/ltep-athena/v.1.0.0/)
 [More](#)
 
