@@ -6,21 +6,27 @@ Sophrosyne ©  supports currently Windows, Debian and Ubuntu based Installations
   <tr>
     <th>Windows</th>
     <th>Debian/Ubuntu</th>
+        <th>Debian/Ubuntu (elevated rights)</th>
   </tr>
   <tr>
     <td style="text-align: center;"><img src="/sophrosyne/v.1.0.0/_media/WINDOWS_LOGO.png" alt="Windows Logo" style="width:100px"></td>
     <td style="text-align: center;"><img src="/sophrosyne/v.1.0.0/_media/DEBIAN_UBUNTU_LOGO.png" alt="Linux Logo" style="width:200px"></td>
+    <td style="text-align: center;"><img src="/sophrosyne/v.1.0.0/_media/DEBIAN_UBUNTU_LOGO.png" alt="Linux Logo" style="width:200px"></td>
   </tr>
   <tr>
-    <td style="text-align: center;"><a href="https://api.onedrive.com/v1.0/shares/u!aHR0cHM6Ly8xZHJ2Lm1zL3UvcyFBaUx4dFpNV2M3NTJ2WjE4aW5aYTI2eXdFVXo1WGc_ZT0wSDFqbFc/root/content">Download for Windows</a></td>
-    <td style="text-align: center;"><a href="https://api.onedrive.com/v1.0/shares/u!aHR0cHM6Ly8xZHJ2Lm1zL3UvcyFBaUx4dFpNV2M3NTJ2WjE3a2VrTXBYUll3RVQ5WXc_ZT0xRFFBQ2U/root/content">Download for Debian/Ubuntu</a></td>
+    <td style="text-align: center;"><a href="https://api.onedrive.com/v1.0/shares/u!aHR0cHM6Ly8xZHJ2Lm1zL3UvcyFBaUx4dFpNV2M3NTJ2Yjl6S2p5ZWhfcVpBenJzWkE_ZT1mblNCN3c/root/content">Download for Windows</a></td>
+    <td style="text-align: center;"><a href="       https://api.onedrive.com/v1.0/shares/u!aHR0cHM6Ly8xZHJ2Lm1zL3UvcyFBaUx4dFpNV2M3NTJ2Yjl4TWdrNHBKcV9MbkdqU1E_ZT00YzFRQVc/root/content">Download for Debian/Ubuntu</a></td>
+    <td style="text-align: center;"><a href="https://api.onedrive.com/v1.0/shares/u!aHR0cHM6Ly8xZHJ2Lm1zL3UvcyFBaUx4dFpNV2M3NTJ2Yjl5dVVOUnE2X1N0VXl4d0E_ZT16ODBCdUw/root/content">Download for Debian/Ubuntu</a></td>
     </tr>
     <tr>
     <td>
-      <strong>SHA256 Checksum:</strong> 50AA2A77FD988450FED123BCC915A2927B91FB0EE77FF92300634700783661C0
+      <strong>SHA256 Checksum:</strong> 4d8b1f287e90066e8b4325c59595d84509a0e86666e1009ccb4fdde6cd2d3c73
     </td>
     <td>
-      <strong>SHA256 Checksum:</strong> 3D3C379B0C167B29E255B626109AFB62B521C96D947C4F58E33E39B4E4C08AA8
+      <strong>SHA256 Checksum:</strong> af2728b88f0616efbf7fe6c76f2300132012a4b280c0d9830364d024396ad87f
+    </td>
+    <td>
+      <strong>SHA256 Checksum:</strong> 198ef23a20004e7364546ea876b748bf1f9df9225221a073906ed994e201f31d
     </td>
   </tr>
 </table>
