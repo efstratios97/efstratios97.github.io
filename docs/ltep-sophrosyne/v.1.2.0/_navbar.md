@@ -1,5 +1,0 @@
-- Versions
-  - [V.1.0.0](/ltep-sophrosyne/v.1.0.0/)
-  - [V.1.1.0](/ltep-sophrosyne/v.1.1.0/)
-  - [V.1.2.0](/ltep-sophrosyne/v.1.2.0/)
-

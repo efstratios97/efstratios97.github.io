@@ -1,4 +1,0 @@
-- [Home](/ltep-athena/v.1.0.0/)
-- [Installation](/ltep-athena/v.1.0.0/Installation.md)
-- [Getting Started](/ltep-athena/v.1.0.0/GettingStarted.md)
-- [Help](/ltep-athena/v.1.0.0/Help.md)

@@ -1,5 +1,0 @@
-- [Home](/ltep-sophrosyne/v.1.1.0/)
-- [Installation](/ltep-sophrosyne/v.1.1.0/Installation.md)
-- [Getting Started - WebUI](/ltep-sophrosyne/v.1.1.0/WebUI.md)
-- [Getting Started - API](/ltep-sophrosyne/v.1.1.0/API.md)
-- [Help](/ltep-sophrosyne/v.1.1.0/Help.md)
