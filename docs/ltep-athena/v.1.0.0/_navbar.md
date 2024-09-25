@@ -1,2 +1,0 @@
-- Versions
-  - [V.1.0.0](/ltep-athena/v.1.0.0/)

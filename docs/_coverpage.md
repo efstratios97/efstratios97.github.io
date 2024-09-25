@@ -1,12 +1,10 @@
-<img src="https://www.ltep-technologies.com/wp-content/uploads/2022/06/LTEP_LOGO_21-3.png" alt="Logo">
+<img src="/sophrosyne/v.1.0.0/_media/LTEP_SOPHROSYNE_LOGO.png" alt="Logo">
 
-# LTEP Developer Portal <small>:zap:</small>
+# Sophrosyne <small>1.0.0</small>
 
-> The main address for all of LTEP Open-Source solutions
+> The way to Automated and Self-Governing Data-Centers
 
-[Sophrosyne](/ltep-sophrosyne/v.1.2.0/)
-[Athena](/ltep-athena/v.1.0.0/)
-[More](#)
+[GitHub](https://github.com/efstratios97/sophrosyne)
+[Getting Started](#sophrosyne-©-developer-portal)
 
-
-![](_media/HOME_BACKGROUND.png)
+![](/sophrosyne/v.1.0.0/_media/HOME_BACKGROUND.png)

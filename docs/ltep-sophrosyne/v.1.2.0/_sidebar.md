@@ -1,8 +1,0 @@
-- [Home](/ltep-sophrosyne/v.1.2.0/)
-- [Installation](/ltep-sophrosyne/v.1.2.0/Installation.md)
-- [Getting Started - Authentification UI](/ltep-sophrosyne/v.1.2.0/UIAuthentification.md)
-- [Getting Started - Actions UI](/ltep-sophrosyne/v.1.2.0/UIAction.md)
-- [Getting Started - Recommendations UI](/ltep-sophrosyne/v.1.2.0/UIRecommendation.md)
-- [Getting Started - Action API](/ltep-sophrosyne/v.1.2.0/APIAction.md)
-- [Getting Started - Recommendation API](/ltep-sophrosyne/v.1.2.0/APIRecommendation.md)
-- [Help](/ltep-sophrosyne/v.1.2.0/Help.md)
