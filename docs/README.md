@@ -4,14 +4,14 @@
 
 ## What is Sophrosyne?
 
-<h4>Sophrosyne complements your data center monitoring by allowing it to automatically react to alerts. It integrates in any monitoring ecosystem like Prometheus where alerts can make REST-Calls. It offers flexible APIs for triggering actions (any piece of software) countering the source of an alert. By doing so, it bridges the gap between automated error detection through alerts and the subsequent manual problem solving by administrators and developers. Additionally, it offers extensive customization, logging and management possibilities through an integrated Web-UI.</h4>
+<h4>Sophrosyne complements your data center monitoring by allowing it to automatically react to alerts. It integrates in any monitoring ecosystem like Prometheus where alerts can make REST-Calls (Webhooks). It offers flexible APIs for triggering actions (any piece of software) countering the source of an alert. By doing so, it bridges the gap between automated error detection through alerts and the subsequent manual problem solving by administrators and developers. Additionally, it offers extensive customization, logging and management possibilities through an integrated Web-UI.</h4>
 
 <div style="text-align: center">
 <img title="Sophrosyne" alt="Sophrosyne Monitoring" src="/sophrosyne/v.1.0.0/_media/MONITORING_SOPHROSYNE.png" style="max-height:50vh">
 </div>
 
 
-## And that is not all!
+## Cannot fix by Code? Tell your experts what to do!
 
 <h4>Sophrosyne knows that some problems and alerts can not be solved via Scripts or Code, but require manual work from maintenance and expert teams. However, to support them the best and provide targeted guidance, Sophrosyne offers Action Recommendations with the goal to prompt helpful and precise information to counter the problem cause.</h4>
 

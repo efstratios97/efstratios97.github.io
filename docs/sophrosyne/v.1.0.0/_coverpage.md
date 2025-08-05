@@ -1,6 +1,6 @@
 <img src="/sophrosyne/v.1.0.0/_media/LTEP_SOPHROSYNE_LOGO.png" alt="Logo">
 
-# Sophrosyne <small>1.3.0</small>
+# Sophrosyne <small>1.0.0</small>
 
 > The way to Automated and Self-Governing Data-Centers
 
