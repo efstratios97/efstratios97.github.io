@@ -6,34 +6,29 @@ Sophrosyne ©  supports currently Windows, Debian and Ubuntu based Installations
   <tr>
     <th>Windows</th>
     <th>Debian/Ubuntu</th>
-        <th>Debian/Ubuntu (elevated rights)</th>
   </tr>
   <tr>
     <td style="text-align: center;"><img src="/sophrosyne/v.1.0.0/_media/WINDOWS_LOGO.png" alt="Windows Logo" style="width:100px"></td>
     <td style="text-align: center;"><img src="/sophrosyne/v.1.0.0/_media/DEBIAN_UBUNTU_LOGO.png" alt="Linux Logo" style="width:200px"></td>
-    <td style="text-align: center;"><img src="/sophrosyne/v.1.0.0/_media/DEBIAN_UBUNTU_LOGO.png" alt="Linux Logo" style="width:200px"></td>
   </tr>
   <tr>
-    <td style="text-align: center;"><a href="https://api.onedrive.com/v1.0/shares/u!aHR0cHM6Ly8xZHJ2Lm1zL3UvcyFBaUx4dFpNV2M3NTJ2Yjl6S2p5ZWhfcVpBenJzWkE_ZT1mblNCN3c/root/content">Download for Windows</a></td>
-    <td style="text-align: center;"><a href="       https://api.onedrive.com/v1.0/shares/u!aHR0cHM6Ly8xZHJ2Lm1zL3UvcyFBaUx4dFpNV2M3NTJ2Yjl4TWdrNHBKcV9MbkdqU1E_ZT00YzFRQVc/root/content">Download for Debian/Ubuntu</a></td>
-    <td style="text-align: center;"><a href="https://api.onedrive.com/v1.0/shares/u!aHR0cHM6Ly8xZHJ2Lm1zL3UvcyFBaUx4dFpNV2M3NTJ2Yjl5dVVOUnE2X1N0VXl4d0E_ZT16ODBCdUw/root/content">Download for Debian/Ubuntu</a></td>
+    <td style="text-align: center;"><a href="https://api.onedrive.com/v1.0/shares/u!aHR0cHM6Ly8xZHJ2Lm1zL3UvcyFBaUx4dFpNV2M3NTJ2Y05KQXV3S1NqTXJ1MnMtaHc_ZT1STkZkNE4/root/content">Download for Windows</a></td>
+    <td style="text-align: center;"><a href="https://api.onedrive.com/v1.0/shares/u!aHR0cHM6Ly8xZHJ2Lm1zL3UvcyFBaUx4dFpNV2M3NTJ2Y05LYXkyLUd6eDBLNnpsclE_ZT1OeVFsbFQ/root/content">Download for Debian/Ubuntu</a></td>
     </tr>
     <tr>
     <td>
       <strong>SHA256 Checksum:</strong> 4d8b1f287e90066e8b4325c59595d84509a0e86666e1009ccb4fdde6cd2d3c73
     </td>
     <td>
-      <strong>SHA256 Checksum:</strong> af2728b88f0616efbf7fe6c76f2300132012a4b280c0d9830364d024396ad87f
+      <strong>SHA256 Checksum:</strong> 825FF1DA31DE52F3B8F16C823F088A864CA904F2EC77F5307EBE99787BE4987B
     </td>
-    <td>
-      <strong>SHA256 Checksum:</strong> 198ef23a20004e7364546ea876b748bf1f9df9225221a073906ed994e201f31d
-    </td>
+   
   </tr>
 </table>
 
 ## Prerequisites Linux Installation
 
-For Linux you have to additionally, make sure having postgres-16 installed.
+For Linux you have to additionally, make sure having postgres installed.
 
 The below installation script originates from the official [PGSQL Documentation](https://www.postgresql.org/download/linux/debian/)
 
@@ -52,20 +47,35 @@ sudo apt-get update
 sudo apt-get -y install postgresql-16
 ```
 
-## Operations
+## Linux further Configuration - Database
 
-Sophrosyne consists of 3 separate and decoupled services:
+You can use the `sophrosyne-db-setup` to configure, manage and operate a postgresql instance for you. It will setup it according to the db section of the default `sophrosyne-operations.yml` config-file.
 
-* Sophrosyne-Database Service running on <strong>Port: 61997</strong>
-* Sophrosyne-Server Service running on <strong>Port: 17609</strong>
-* Sophrosyne-UI Service running on <strong>Port: 27697</strong>
+<table>
+  <tr>
+    <th>Debian/Ubuntu</th>
+  </tr>
+  <tr>
+    <td style="text-align: center;"><img src="/sophrosyne/v.1.0.0/_media/DEBIAN_UBUNTU_LOGO.png" alt="Linux Logo" style="width:200px"></td>
+  </tr>
+  <tr>
+    <td style="text-align: center;"><a href="https://api.onedrive.com/v1.0/shares/u!aHR0cHM6Ly8xZHJ2Lm1zL3UvcyFBaUx4dFpNV2M3NTJ2Y05JU0I2WW5wLUo5TkhsbVE_ZT1Pa0l2cDQ/root/content">Download for Debian/Ubuntu</a></td>
+    </tr>
+    <tr>
+    <td>
+      <strong>SHA256 Checksum:</strong> af2728b88f0616efbf7fe6c76f2300132012a4b280c0d9830364d024396ad87f
+    </td>
+   
+  </tr>
+</table>
 
-## Linux further Configuration
+## Linux further Configuration - Permissions
 
-Under Linux, Sophrosyne runs with the during installation auto-created user "sophrosyne". This user has no kind of elevated rights by default. When Actions are executed, they are done so with the restricted rights of the "sophrosyne" user, which will eventually result in permission denied errors. 
+Under Linux, Sophrosyne runs using the current user used for the installation. Therefore, Sophrosyne rights to execute Actions (Scripts, commands) depends on the user rights: if your user can execute your command, then also Sophrosyne can <-> if your user cannot execute the command, then also Sophrosyne will not.
+If you get `permission denied` errors, please check if your user has enough rights.
 
 
-### Solution 1: Adjust systemd file
+### Adjust systemd file
 
 To enable Sophrosyne to execute actions with elevated rights, you can adjust the systemd "sophrosyne-server.service" file.
 
@@ -73,39 +83,17 @@ To enable Sophrosyne to execute actions with elevated rights, you can adjust the
 ```/etc/systemd/system/sophrosyne_server.service```
 
 ```text
-[Unit]
-Description=Sophrosyne-Server
-After=network.target
-
+...
 [Service]
-Type=simple
-User=sophrosyne
-ExecStart=/usr/bin/sophrosyne/jre/bin/java -jar /usr/bin/sophrosyne/server/bin/sophrosyne.jar
-ExecStop=/bin/kill -SIGINT $MAINPID
-SuccessExitStatus=143
-
-[Install]
-WantedBy=multi-user.target
+User=%u
+...
 ```
 
-1. Change ```User=sophrosyne``` to a user with elevated/adequate rights for your actions
+1. Change ```User=%u``` to a user with elevated/adequate rights for your actions
 
 ```text
-[Unit]
-Description=Sophrosyne-Server
-After=network.target
-
 [Service]
-Type=simple
-```
-```User=root```
-```text
-ExecStart=/usr/bin/sophrosyne/jre/bin/java -jar /usr/bin/sophrosyne/server/bin/sophrosyne.jar
-ExecStop=/bin/kill -SIGINT $MAINPID
-SuccessExitStatus=143
-
-[Install]
-WantedBy=multi-user.target
+User=root // Although not recommended to use root
 ```
 
 3. Reload service
@@ -115,14 +103,3 @@ WantedBy=multi-user.target
 ```systemctl stop sophrosyne_server.service```
 
 ```systemctl start sophrosyne_server.service```
-
-### Solution 2: Elevate rights
-
-Give sophrosyne user elevated rights by adding it to sudoers
-
-https://linuxize.com/post/how-to-add-user-to-sudoers-in-ubuntu/
-
-### Solution 3: Change user permission of scripts and files
-
-https://www.redhat.com/sysadmin/manage-permissions
-
