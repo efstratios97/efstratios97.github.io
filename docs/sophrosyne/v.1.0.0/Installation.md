@@ -4,25 +4,15 @@ Sophrosyne ©  supports currently Windows, Debian and Ubuntu based Installations
 
 <table>
   <tr>
-    <th>Windows</th>
-    <th>Debian/Ubuntu</th>
+    <th>Debian/Ubuntu (amd64)</th>
   </tr>
   <tr>
-    <td style="text-align: center;"><img src="/sophrosyne/v.1.0.0/_media/WINDOWS_LOGO.png" alt="Windows Logo" style="width:100px"></td>
     <td style="text-align: center;"><img src="/sophrosyne/v.1.0.0/_media/DEBIAN_UBUNTU_LOGO.png" alt="Linux Logo" style="width:200px"></td>
   </tr>
   <tr>
-    <td style="text-align: center;"><a href="https://api.onedrive.com/v1.0/shares/u!aHR0cHM6Ly8xZHJ2Lm1zL3UvcyFBaUx4dFpNV2M3NTJ2Y05KQXV3S1NqTXJ1MnMtaHc_ZT1STkZkNE4/root/content">Download for Windows</a></td>
-    <td style="text-align: center;"><a href="https://api.onedrive.com/v1.0/shares/u!aHR0cHM6Ly8xZHJ2Lm1zL3UvcyFBaUx4dFpNV2M3NTJ2Y05LYXkyLUd6eDBLNnpsclE_ZT1OeVFsbFQ/root/content">Download for Debian/Ubuntu</a></td>
+    <td style="text-align: center;"><a href="https://drive.google.com/uc?export=download&id=170cqcZlDV7MrFHamdgZRPUo9S4O52zSg">Download for Debian/Ubuntu</a></td>
     </tr>
     <tr>
-    <td>
-      <strong>SHA256 Checksum:</strong> 4d8b1f287e90066e8b4325c59595d84509a0e86666e1009ccb4fdde6cd2d3c73
-    </td>
-    <td>
-      <strong>SHA256 Checksum:</strong> 825FF1DA31DE52F3B8F16C823F088A864CA904F2EC77F5307EBE99787BE4987B
-    </td>
-   
   </tr>
 </table>
 
@@ -50,24 +40,6 @@ sudo apt-get -y install postgresql-16
 ## Linux further Configuration - Database
 
 You can use the `sophrosyne-db-setup` to configure, manage and operate a postgresql instance for you. It will setup it according to the db section of the default `sophrosyne-operations.yml` config-file.
-
-<table>
-  <tr>
-    <th>Debian/Ubuntu</th>
-  </tr>
-  <tr>
-    <td style="text-align: center;"><img src="/sophrosyne/v.1.0.0/_media/DEBIAN_UBUNTU_LOGO.png" alt="Linux Logo" style="width:200px"></td>
-  </tr>
-  <tr>
-    <td style="text-align: center;"><a href="https://api.onedrive.com/v1.0/shares/u!aHR0cHM6Ly8xZHJ2Lm1zL3UvcyFBaUx4dFpNV2M3NTJ2Y05JU0I2WW5wLUo5TkhsbVE_ZT1Pa0l2cDQ/root/content">Download for Debian/Ubuntu</a></td>
-    </tr>
-    <tr>
-    <td>
-      <strong>SHA256 Checksum:</strong> af2728b88f0616efbf7fe6c76f2300132012a4b280c0d9830364d024396ad87f
-    </td>
-   
-  </tr>
-</table>
 
 ## Linux further Configuration - Permissions
 
