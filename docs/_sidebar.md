@@ -9,7 +9,6 @@
 - [Action API](/sophrosyne/v.1.0.0/APIAction.md)
 - [Confirmation API](/sophrosyne/v.1.0.0/APIActionConfirmation.md)
 - [Configuration API](/sophrosyne/v.1.0.0/APIConfiguration.md)
-- [Confirmation API](/sophrosyne/v.1.0.0/APIActionConfirmation.md)
 - [Action Archive API](/sophrosyne/v.1.0.0/APIActionArchive.md)
 - [Troubleshooting & Tips & Tricks](/sophrosyne/v.1.0.0/TroubleShooting.md)
 - [Help](/sophrosyne/v.1.0.0/Help.md)
